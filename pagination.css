@@ -2,17 +2,17 @@
 h1{
     text-align:left;
     color:#7B68EE;
-    text-shadow:2px 1px 1px black;
+    text-shadow:2px 1px 1px black;   /*add shadow to text  */
    
   }
   
-  .pagination{
+  .pagination{                /* for no bullets to list and for display in flex  */
     list-style-type:none;
     display:flex;
     text-align:center;
   }
   
-  .pagination a{
+  .pagination a{       /* linear gradient for mixing colors, text-decoration:none to remove underline to a tag  */
     color:#E9967A;
     background:linear-gradient( 150deg,#FFFFE0,#FAF0E6);
     text-decoration: none;
@@ -24,15 +24,15 @@ h1{
     border-radius:5px;
   }
   
-  a:hover{
+  a:hover{                     /* while cursor placed on page number color will change   */
     background:#FFF8DC;
   }
   
-  a:active{
+  a:active{                     /* when clicking page it shows this page is active by changing the color */
     background:#00FA9A;
   }
   
-  a:visited{
+  a:visited{                   /* once respective page visited it change color to know which page has visited and which page has to visit */
     background:#66CDAA;
   }
   
